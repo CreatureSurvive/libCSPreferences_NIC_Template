@@ -1,0 +1,1 @@
+NIC Template for creating libCSPreferences bundles

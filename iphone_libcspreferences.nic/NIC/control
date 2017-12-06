@@ -1,0 +1,14 @@
+name "iphone/libcspreferences"
+prompt CLASSPREFIX "Class name prefix (three or more characters unique to this project)" "XXX"
+prompt DEVELOPER "developer name" "CreatureSurvive"
+prompt REALNAME "real name of the developer" "Dana Buehre"
+prompt ORGANIZATION "name of your organization/company if you dont have one use your developer name" "CreatureCoding"
+prompt SUPPORTEMAIL "email address for support" "support@creaturecoding.com"
+prompt TWITTER "twitter username" "CreatureSurvive"
+prompt PAYPAL "paypal username for donations" "CreatureSurvive"
+prompt COLOR "primary color of the settings" "#1DA1F2"
+
+constrain "control" to package
+
+constrain file "control" to package
+constrain "theos" to link_theos
