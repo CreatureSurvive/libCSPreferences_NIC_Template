@@ -1,0 +1,19 @@
+name "iphone/creature_tweak_preferences"
+prompt FILTER "bundle filter" "com.apple.springboard"
+constrain file "control" to package
+constrain "theos" to link_theos
+
+prompt CLASSPREFIX "Class name prefix (three or more characters unique to this project)" "XXX"
+prompt DEVELOPER "developer name" "CreatureSurvive"
+prompt REALNAME "real name of the developer" "Dana Buehre"
+prompt ORGANIZATION "name of your organization/company if you dont have one use your developer name" "CreatureCoding"
+prompt SUPPORTEMAIL "email address for support" "support@creaturecoding.com"
+prompt REPO "hosting repositiory, for piracy alert" "https://creaturesurvive.github.io/"
+prompt TWITTER "twitter username" "CreatureSurvive"
+prompt REDDIT "reddit username" "CreatureSurvive"
+prompt PAYPAL "paypal username for donations" "CreatureSurvive"
+prompt PATREON "patreon id for donations" "8920573"
+prompt COLOR "primary color of the settings" "#000000"
+
+constrain "control" to package
+

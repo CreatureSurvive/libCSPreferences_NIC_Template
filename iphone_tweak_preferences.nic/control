@@ -1,0 +1,19 @@
+Package: @@PACKAGENAME@@
+Name: @@FULLPROJECTNAME@@
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences
+Version: 0.1
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: @@USER@@
+Author: @@USER@@
+Section: Tweaks
+dev: @@USER@@
+Homepage: https://creaturecoding.com/
+Depiction: https://creaturesurvive.github.io/repo/cydia/@@PROJECTNAME@@/depiction/
+Icon: 
+
+
+

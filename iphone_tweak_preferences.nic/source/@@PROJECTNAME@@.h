@@ -1,0 +1,1 @@
+#import <@@CLASSPREFIX@@Provider.h>
